@@ -26,18 +26,7 @@ let handler = async (m, { conn, text, usedPrefix }) => {
             }
  
             let caption = '';
-            caption += `∘ Title : ${convert.title}\n`;
-            caption += `∘ Ext : Search\n`;
-            caption += `∘ ID : ${convert.videoId}\n`;
-            caption += `∘ Duration : ${convert.timestamp}\n`;
-            caption += `∘ Viewers : ${convert.views}\n`;
-            caption += `∘ Upload At : ${convert.ago}\n`;
-            caption += `∘ Author : ${convert.author.name}\n`;
-            caption += `∘ Channel : ${convert.author.url}\n`;
-            caption += `∘ Url : ${convert.url}\n`;
-            caption += `∘ Description : ${convert.description}\n`;
-            caption += `∘ Thumbnail : ${convert.image}`;
- 
+          
             await conn.relayMessage(m.chat, {
                 extendedTextMessage: {
                     text: caption,
@@ -46,7 +35,7 @@ let handler = async (m, { conn, text, usedPrefix }) => {
                             title: convert.title,
                             mediaType: 1,
                             previewType: 0,
-                            renderLargerThumbnail: true,
+                            renderLargerThumbnail:false,
                             thumbnailUrl: convert.image,
                             sourceUrl: convert.url
                         }
