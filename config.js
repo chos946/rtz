@@ -1,8 +1,8 @@
-global.owner = ['639516674691']  
-global.mods = ['639516674691'] 
-global.prems = ['639516674691']
+global.owner = ['628161444194']  
+global.mods = ['628161444194'] 
+global.prems = ['628161444194']
 global.nameowner = 'chos'
-global.numberowner = '639516674691' 
+global.numberowner = '628161444194' 
 global.mail = 'support@tioprm.eu.org' 
 global.gc = 'https://chat.whatsapp.com/CP5mV2D9IO730HpBgmkuyi'
 global.instagram = 'https://instagram.com/encos_thea233'
@@ -22,7 +22,7 @@ global.gcspam = false // Set true/false untuk menutup grup ketika spam (default:
 
 
 //INI WAJIB DI ISI!//
-global.btc = 'Kuya123456' 
+global.btc = 'Kodok123456' 
 //Daftar terlebih dahulu https://api.botcahx.eu.org
 
 //INI OPTIONAL BOLEH DI ISI BOLEH JUGA ENGGA//
